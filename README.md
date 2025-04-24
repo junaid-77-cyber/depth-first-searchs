@@ -55,7 +55,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 </ol></B>
 
 <h3>program:</h3>
-<p>
+
 from collections import defaultdict
 
 def dfs(graph, start, visited, path):
@@ -81,7 +81,7 @@ visited = defaultdict(bool)
 path = []
 traversedpath = dfs(graph, start, visited, path)
 print("DFS Traversal Path:", traversedpath)
-</p>
+
 
 <hr>
 <h3>Sample Input</h3>
@@ -99,7 +99,7 @@ F H <BR>
 <hr>
 <h3>Sample Output</h3>
 <hr>
-c:\Users\Junaid Sardar\Pictures\Screenshots\Screenshot 2025-04-23 160945.png
+<img src Screenshot 2025-04-23 160945.png>
 <hr>
 
 <hr>
@@ -114,7 +114,7 @@ c:\Users\Junaid Sardar\Pictures\Screenshots\Screenshot 2025-04-23 160945.png
 <hr>
 <h3>Sample Output</h3>
 <hr>
-c:\Users\Junaid Sardar\Pictures\Screenshots\Screenshot 2025-04-24 124027.png
+<img src Screenshot 2025-04-24 124027.png>
 <hr>
 <h3>Result:</h3>
 <hr>
